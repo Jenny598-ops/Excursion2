@@ -1,13 +1,26 @@
 /* Wuggles */
 
-p {
+p, h1, h5 {
 text-align: center;
 
 }
 
-h1{
+h1 {
 font-family: Verdana;
-font-weight: normal
-text: 50px;
+font-weight: normal;
+font-size: 50px;
 color: white;
+}
+
+h5, footer {
+    color: white;
+}
+
+footer {
+    text-align: right;
+    
+}
+
+body {
+    background-color: black;
 }
